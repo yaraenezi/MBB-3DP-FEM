@@ -1,0 +1,49 @@
+{
+  "geometry_policy": "Every accepted case uses the same full upright original-mesh.stl.",
+  "load_n": 100.0,
+  "accepted_fine_mesh_cases": [
+    {
+      "case": "Cubic 15%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3908875117270084,
+      "maximum_displacement_mm": 0.4076584278337182,
+      "apparent_stiffness_n_per_mm": 255.82807585277607,
+      "maximum_reported_von_mises_mpa": 7.751415549802941,
+      "estimated_mass_g": 40.93285920008664,
+      "equilibrium_relative_error": 6.230624194358825e-09,
+      "energy_identity_relative_error": 1.0831517421969024e-11
+    },
+    {
+      "case": "Cubic 25%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3264764791108369,
+      "maximum_displacement_mm": 0.3374636216689144,
+      "apparent_stiffness_n_per_mm": 306.3007793772812,
+      "maximum_reported_von_mises_mpa": 6.453591184185892,
+      "estimated_mass_g": 47.67815152532635,
+      "equilibrium_relative_error": 8.77929679177214e-09,
+      "energy_identity_relative_error": 8.337261903449162e-12
+    },
+    {
+      "case": "Dense 100%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.12431562118510277,
+      "maximum_displacement_mm": 0.1274889984061312,
+      "apparent_stiffness_n_per_mm": 804.4041372009281,
+      "maximum_reported_von_mises_mpa": 2.4568173940637923,
+      "estimated_mass_g": 98.26784396462233,
+      "equilibrium_relative_error": 1.6300704714922178e-08,
+      "energy_identity_relative_error": 2.426033160556318e-11
+    }
+  ],
+  "mesh_convergence": {
+    "cubic_15_mean_displacement_change_percent": 3.528645282011062,
+    "cubic_25_mean_displacement_change_percent": 2.2865425910435118,
+    "coarse_mesh_size_mm": 3.0,
+    "fine_mesh_size_mm": 2.4
+  },
+  "interpretation": "Sparse cases are homogenized shell/core screening models. Coupon or RVE calibration is required before design allowables."
+}

@@ -44,6 +44,25 @@ to as the `100% cubic-equivalent solid`.
 
 ![3D displacement result](outputs/fem/3d_cubic_100/dense_mbb_3d_displacement.png)
 
+### Full-upright cubic infill cases
+
+`src/fem/mbb_3d_cubic_shell_core.py` applies the same full upright
+`original-mesh.stl` to the `15%`, `25%`, and dense `100%` comparisons. The
+half-beam orientation found in the 25% slicer archive is not used as FEM
+geometry.
+
+The archived G-code confirms cubic toolpaths with projected line pitches of
+`8.142 mm` at 15% and `4.885 mm` at 25%. Sparse cases use a volume-matched
+dense shell and a homogenized cubic core with the screening law
+`E_core/E_PLA = relative_density^2`.
+
+![Full-upright cubic comparison](outputs/fem/cubic_full_upright_comparison/cubic_full_upright_comparison.png)
+
+The compiled technical report is available in:
+
+- [`outputs/reports/full_upright_cubic_fem_report.pdf`](outputs/reports/full_upright_cubic_fem_report.pdf)
+- [`outputs/reports/full_upright_cubic_fem_report.docx`](outputs/reports/full_upright_cubic_fem_report.docx)
+
 ## Validated Results
 
 Material assumptions:
@@ -75,6 +94,20 @@ See:
 - `outputs/fem/2d_plane_stress/results.json`
 - `outputs/fem/3d_cubic_100/results.json`
 - `outputs/fem/3d_cubic_100/validation.md`
+- `outputs/fem/cubic_full_upright_comparison/comparison.json`
+- `outputs/gcode_validation/cubic_15/gcode_cubic_validation.json`
+- `outputs/gcode_validation/cubic_25/gcode_cubic_validation.json`
+
+Sparse full-upright screening results at the accepted `2.4 mm` mesh:
+
+| Case | Mean load displacement | Apparent stiffness | Estimated mass |
+|---|---:|---:|---:|
+| Cubic 15% | 0.39089 mm | 255.83 N/mm | 40.93 g |
+| Cubic 25% | 0.32648 mm | 306.30 N/mm | 47.68 g |
+| Dense 100% | 0.12432 mm | 804.40 N/mm | 98.27 g |
+
+Refining the sparse-case mesh from `3.0` to `2.4 mm` changed mean load
+displacement by `3.53%` for 15% and `2.29%` for 25%.
 
 ## Run With Docker
 
@@ -104,6 +137,20 @@ docker run --rm `
     --mesh-size-mm 2.4 `
     --load-n 100 `
     --plot-scale 75
+```
+
+Run a full-upright sparse cubic case:
+
+```powershell
+docker run --rm `
+  -v "${PWD}:/workspace" `
+  mbb-3dp-fem `
+  python src/fem/mbb_3d_cubic_shell_core.py `
+    --stl raw/meshes/original-mesh.stl `
+    --infill-density 0.15 `
+    --infill-pitch-mm 8.141627 `
+    --mesh-size-mm 2.4 `
+    --load-n 100
 ```
 
 Large generated `.msh`, `.h5` and `.xdmf` files are intentionally excluded

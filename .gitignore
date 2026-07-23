@@ -19,6 +19,11 @@ outputs/**/*.xdmf
 # Avoid committing copyrighted source documents by accident.
 raw/pdfs/
 raw/references/
+raw/deep-research-report.md
+
+# Duplicate local G-code inspection exports; canonical results are stored in
+# outputs/gcode_validation/.
+outputs/infill/
 
 # Local project notes and earlier non-DOLFINx experiments are outside this
 # focused FEM publication.

@@ -1,0 +1,331 @@
+{
+  "archive": "OG beam - 15% ID - CUBIC .gcode.3mf",
+  "header": {
+    "model printing time": "2h 32m 39s; total estimated time: 2h 40m 6s",
+    "total filament weight [g]": "55.56",
+    "max_z_height": "40.20"
+  },
+  "settings": {
+    "sparse_infill_density": "15%",
+    "sparse_infill_pattern": "cubic",
+    "wall_loops": "2",
+    "top_shell_layers": "5",
+    "bottom_shell_layers": "3",
+    "layer_height": "0.2",
+    "nozzle_diameter": "0.4",
+    "inner_wall_line_width": "0.45",
+    "outer_wall_line_width": "0.42",
+    "infill_direction": "45",
+    "infill_shift_step": "0.4",
+    "enable_support": "1",
+    "support_type": "tree(auto)"
+  },
+  "sparse_segment_count": 9591,
+  "sparse_layer_count": 193,
+  "sparse_toolpath_bounds_mm": {
+    "minimum": [
+      24.179,
+      114.02
+    ],
+    "maximum": [
+      232.544,
+      136.273
+    ]
+  },
+  "dominant_angle_signatures_deg": [
+    {
+      "angles": [
+        45.0,
+        105.0,
+        165.0
+      ],
+      "layers": 90
+    },
+    {
+      "angles": [
+        105.0
+      ],
+      "layers": 15
+    },
+    {
+      "angles": [
+        45.0,
+        165.0
+      ],
+      "layers": 12
+    },
+    {
+      "angles": [
+        45.0
+      ],
+      "layers": 11
+    },
+    {
+      "angles": [
+        105.0,
+        165.0
+      ],
+      "layers": 10
+    },
+    {
+      "angles": [
+        45.0,
+        105.0
+      ],
+      "layers": 7
+    },
+    {
+      "angles": [],
+      "layers": 5
+    },
+    {
+      "angles": [
+        45.0,
+        110.0,
+        165.0
+      ],
+      "layers": 5
+    },
+    {
+      "angles": [
+        45.0,
+        100.0,
+        165.0
+      ],
+      "layers": 3
+    },
+    {
+      "angles": [
+        95.0,
+        165.0
+      ],
+      "layers": 3
+    },
+    {
+      "angles": [
+        50.0,
+        105.0,
+        165.0
+      ],
+      "layers": 3
+    },
+    {
+      "angles": [
+        35.0
+      ],
+      "layers": 2
+    },
+    {
+      "angles": [
+        45.0,
+        110.0
+      ],
+      "layers": 2
+    },
+    {
+      "angles": [
+        45.0,
+        115.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        155.0,
+        175.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        25.0,
+        100.0,
+        105.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        85.0,
+        105.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        85.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        55.0,
+        105.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        100.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        100.0,
+        105.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        35.0,
+        45.0,
+        100.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        35.0,
+        95.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        160.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        55.0,
+        105.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        50.0,
+        90.0,
+        105.0,
+        175.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        100.0,
+        105.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        40.0,
+        95.0,
+        170.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        100.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        105.0,
+        170.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        165.0,
+        170.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        165.0,
+        170.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        105.0,
+        155.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        40.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        105.0,
+        115.0,
+        165.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        105.0,
+        175.0
+      ],
+      "layers": 1
+    },
+    {
+      "angles": [
+        45.0,
+        160.0,
+        165.0
+      ],
+      "layers": 1
+    }
+  ],
+  "line_pitch": {
+    "estimated_pitch_mm": 8.141627478581896,
+    "pitch_mode_mm": 8.0,
+    "mode_samples": 1860,
+    "samples": 2944,
+    "median_all_candidate_gaps_mm": 8.141627478581924
+  },
+  "plotted_layers_mm": [
+    1.8,
+    34.6,
+    34.8
+  ],
+  "validation": {
+    "pattern_declared_cubic": true,
+    "multiple_layer_angle_signatures": true,
+    "interpretation": "Cubic identity is supported when the archive declares cubic and the sparse toolpaths show layer-dependent direction/phase changes."
+  }
+}

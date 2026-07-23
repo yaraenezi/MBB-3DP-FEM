@@ -235,6 +235,7 @@ def create_plot(
     displacement: fem.Function,
     output: Path,
     deformation_scale: float,
+    title: str | None = None,
 ) -> None:
     if domain.comm.size != 1:
         return
@@ -288,8 +289,11 @@ def create_plot(
     axes.view_init(elev=22, azim=-62)
     axes.set_axis_off()
     figure.suptitle(
-        "Dense MBB true 3D FEM\n"
-        f"100% cubic-equivalent solid | deformation x{deformation_scale:g}",
+        title
+        or (
+            "Full upright dense MBB true 3D FEM\n"
+            f"100% cubic-equivalent solid | deformation x{deformation_scale:g}"
+        ),
         fontsize=18,
         y=0.94,
     )
@@ -470,6 +474,10 @@ def main() -> None:
 
     results = {
         "case": "cubic_100_dense_equivalent",
+        "geometry_policy": (
+            "The complete original-mesh.stl is analyzed in the upright "
+            "210 mm span by 40 mm height orientation."
+        ),
         "interpretation": (
             "At 100% infill density, cubic infill is modeled as dense "
             "isotropic PLA without an internal void architecture."
