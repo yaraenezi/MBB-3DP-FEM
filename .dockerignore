@@ -1,0 +1,10 @@
+.git
+.pytest_cache
+__pycache__
+*.pyc
+outputs/**/*.msh
+outputs/**/*.h5
+outputs/**/*.xdmf
+outputs/simulations
+guardrails
+wiki

@@ -1,0 +1,54 @@
+{
+  "case": "cubic_100_dense_equivalent",
+  "interpretation": "At 100% infill density, cubic infill is modeled as dense isotropic PLA without an internal void architecture.",
+  "source_stl": "/input/original-mesh.stl",
+  "dolfinx_version": "0.11.0.post0",
+  "mesh_size_mm": 2.4,
+  "load_n": 100.0,
+  "youngs_modulus_pa": 3000000000.0,
+  "poisson_ratio": 0.35,
+  "density_kg_m3": 1240.0,
+  "geometry": {
+    "span_m": 0.21026555670744967,
+    "depth_m": 0.024149483831762603,
+    "height_m": 0.04021825834169651,
+    "support_width_m": 0.007359294484760739,
+    "support_height_m": 0.005630556167837512,
+    "load_half_width_m": 0.007359294484760739,
+    "load_half_depth_m": 0.004829896766352521,
+    "load_height_band_m": 0.003217460667335721
+  },
+  "mesh": {
+    "tetrahedra": 134566,
+    "minimum_tetra_volume_m3": 1.5951609019616425e-11,
+    "maximum_tetra_volume_m3": 4.592357807958129e-09,
+    "degenerate_tetrahedra": 0
+  },
+  "gmsh": {
+    "logged_warnings": 0,
+    "generated_volume_elements_before_export": 134566
+  },
+  "volume_m3": 7.92482612617922e-05,
+  "mass_kg": 0.09826784396462233,
+  "load_area_m2": 0.0001088229895165685,
+  "support_facets": {
+    "left": 477,
+    "right": 433,
+    "load": 119
+  },
+  "solver": {
+    "converged_reason": 3,
+    "iterations": 158
+  },
+  "mean_load_displacement_m": -0.00012431562118510276,
+  "maximum_displacement_m": 0.00012748899840613122,
+  "compliance_j": 0.012431562118510264,
+  "strain_energy_j": 0.006215781059104335,
+  "energy_identity_relative_error": 2.426033160556318e-11,
+  "reaction_left_z_n": 50.21361052958766,
+  "reaction_right_z_n": 49.78638784034187,
+  "reaction_total_z_n": 99.99999836992953,
+  "equilibrium_relative_error": 1.6300704714922178e-08,
+  "maximum_von_mises_pa": 2456817.394063792,
+  "plot_deformation_scale": 75.0
+}

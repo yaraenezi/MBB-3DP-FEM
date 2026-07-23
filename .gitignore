@@ -1,0 +1,28 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Keep intentional simulation results in outputs/, but ignore local scratch.
+outputs/tmp/
+outputs/scratch/
+outputs/simulations/
+outputs/fem/20*/
+outputs/**/*.msh
+outputs/**/*.h5
+outputs/**/*.xdmf
+
+# Avoid committing copyrighted source documents by accident.
+raw/pdfs/
+raw/references/
+
+# Local project notes and earlier non-DOLFINx experiments are outside this
+# focused FEM publication.
+guardrails/
+wiki/
+src/fem/voxel_hex_fem.py
+requirements.txt

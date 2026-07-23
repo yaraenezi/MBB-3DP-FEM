@@ -1,0 +1,32 @@
+{
+  "case": "mbb_2d_plane_stress_solid_rectangle",
+  "load_n": 100.0,
+  "dimensions_m": [
+    0.21,
+    0.04,
+    0.024
+  ],
+  "mesh": {
+    "nx": 168,
+    "ny": 32,
+    "triangles": 10752
+  },
+  "material": {
+    "youngs_modulus_pa": 3000000000.0,
+    "poisson_ratio": 0.35
+  },
+  "solver": {
+    "converged_reason": 3,
+    "iterations": 40
+  },
+  "mean_load_displacement_m": -4.3996403008204286e-05,
+  "maximum_displacement_m": 4.560295311060271e-05,
+  "maximum_von_mises_pa": 1997959.4855013143,
+  "compliance_j": 0.004399640300820429,
+  "strain_energy_j": 0.002199820150183839,
+  "energy_identity_relative_error": 1.0290649248974204e-10,
+  "reaction_left_y_n": 50.43895839330692,
+  "reaction_right_y_n": 49.56104000575619,
+  "reaction_total_y_n": 99.99999839906312,
+  "equilibrium_relative_error": 1.6009368835057102e-08
+}
