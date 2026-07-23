@@ -1,0 +1,109 @@
+{
+  "geometry_policy": "Every accepted case uses the same full upright original-mesh.stl.",
+  "load_n": 100.0,
+  "screening_model": "Volume-matched dense shell plus density-squared core stiffness, corrected by a G-code axial fourth-orientation moment normalized to cubic at each density.",
+  "accepted_fine_mesh_cases": [
+    {
+      "case": "Cubic 15%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3908875117270084,
+      "maximum_displacement_mm": 0.4076584278337182,
+      "apparent_stiffness_n_per_mm": 255.82807585277607,
+      "maximum_reported_von_mises_mpa": 7.751415549802941,
+      "estimated_mass_g": 40.93285920008664,
+      "core_relative_stiffness": 0.0225,
+      "equilibrium_relative_error": 6.230624194358825e-09,
+      "energy_identity_relative_error": 1.0831517421969024e-11
+    },
+    {
+      "case": "Gyroid 15%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3862616605258146,
+      "maximum_displacement_mm": 0.40254741315698367,
+      "apparent_stiffness_n_per_mm": 258.89186067255775,
+      "maximum_reported_von_mises_mpa": 7.677601983867209,
+      "estimated_mass_g": 40.93285920008664,
+      "core_relative_stiffness": 0.024212024999999998,
+      "equilibrium_relative_error": 5.517704693147607e-09,
+      "energy_identity_relative_error": 9.23020180641354e-12
+    },
+    {
+      "case": "Honeycomb 15%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3905714366193981,
+      "maximum_displacement_mm": 0.4073089086489325,
+      "apparent_stiffness_n_per_mm": 256.03510811121464,
+      "maximum_reported_von_mises_mpa": 7.746464831376479,
+      "estimated_mass_g": 40.93285920008664,
+      "core_relative_stiffness": 0.02261295,
+      "equilibrium_relative_error": 6.202402289545717e-09,
+      "energy_identity_relative_error": 1.0666886766889551e-11
+    },
+    {
+      "case": "Cubic 25%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3264764791108369,
+      "maximum_displacement_mm": 0.3374636216689144,
+      "apparent_stiffness_n_per_mm": 306.3007793772812,
+      "maximum_reported_von_mises_mpa": 6.453591184185892,
+      "estimated_mass_g": 47.67815152532635,
+      "core_relative_stiffness": 0.0625,
+      "equilibrium_relative_error": 8.77929679177214e-09,
+      "energy_identity_relative_error": 8.337261903449162e-12
+    },
+    {
+      "case": "Gyroid 25%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3175368022000161,
+      "maximum_displacement_mm": 0.32789986602365356,
+      "apparent_stiffness_n_per_mm": 314.92412629705234,
+      "maximum_reported_von_mises_mpa": 6.23120912220021,
+      "estimated_mass_g": 47.67815152532635,
+      "core_relative_stiffness": 0.071856875,
+      "equilibrium_relative_error": 1.080332239666859e-08,
+      "energy_identity_relative_error": 7.238121099298865e-12
+    },
+    {
+      "case": "Honeycomb 25%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.3226964439742661,
+      "maximum_displacement_mm": 0.33341438539158696,
+      "apparent_stiffness_n_per_mm": 309.8887572742346,
+      "maximum_reported_von_mises_mpa": 6.360552209378452,
+      "estimated_mass_g": 47.67815152532635,
+      "core_relative_stiffness": 0.066308125,
+      "equilibrium_relative_error": 1.0927717966069395e-08,
+      "energy_identity_relative_error": 7.344514159024829e-12
+    },
+    {
+      "case": "Dense 100%",
+      "mesh_size_mm": 2.4,
+      "tetrahedra": 134566,
+      "mean_load_displacement_mm": 0.12431562118510277,
+      "maximum_displacement_mm": 0.1274889984061312,
+      "apparent_stiffness_n_per_mm": 804.4041372009281,
+      "maximum_reported_von_mises_mpa": 2.4568173940637923,
+      "estimated_mass_g": 98.26784396462233,
+      "core_relative_stiffness": 1.0,
+      "equilibrium_relative_error": 1.6300704714922178e-08,
+      "energy_identity_relative_error": 2.426033160556318e-11
+    }
+  ],
+  "mesh_convergence": {
+    "cubic_15_mean_displacement_change_percent": 3.528645282011062,
+    "cubic_25_mean_displacement_change_percent": 2.2865425910435118,
+    "gyroid_15_mean_displacement_change_percent": 3.4299304422768366,
+    "gyroid_25_mean_displacement_change_percent": 2.1517968722979273,
+    "honeycomb_15_mean_displacement_change_percent": 3.521884773690402,
+    "honeycomb_25_mean_displacement_change_percent": 2.228099875083646,
+    "coarse_mesh_size_mm": 3.0,
+    "fine_mesh_size_mm": 2.4
+  },
+  "interpretation": "Pattern rankings are comparative homogenized screening results. Pattern-specific RVE or coupon calibration is required."
+}

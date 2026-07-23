@@ -1,0 +1,1059 @@
+﻿{
+    "archive":  "OG beam - 15% ID - HONEYCOMB - grid.gcode.3mf",
+    "settings":  {
+                     "bottom_shell_layers":  "3",
+                     "bottom_shell_thickness":  "0",
+                     "enable_support":  "1",
+                     "filament_type":  "PLA",
+                     "infill_direction":  "45",
+                     "infill_rotate_step":  "0",
+                     "infill_shift_step":  "0.4",
+                     "inner_wall_line_width":  "0.45",
+                     "layer_height":  "0.2",
+                     "nozzle_diameter":  "0.4",
+                     "outer_wall_line_width":  "0.42",
+                     "sparse_infill_density":  "15%",
+                     "sparse_infill_pattern":  "honeycomb",
+                     "support_type":  "tree(auto)",
+                     "top_shell_layers":  "5",
+                     "top_shell_thickness":  "1",
+                     "wall_loops":  "2"
+                 },
+    "header":  {
+                   "model printing time":  "2h 49m 24s; total estimated time: 2h 56m 51s",
+                   "max_z_height":  "40.20"
+               },
+    "plate_bbox_mm":  [
+                          24.55468,
+                          103.37916000000001,
+                          232.19127000000003,
+                          150.9002
+                      ],
+    "object_bbox":  [
+                        {
+                            "area":  4528.40576171875,
+                            "bbox":  [
+                                         24.55468,
+                                         103.37916000000001,
+                                         232.19127000000003,
+                                         150.9002
+                                     ],
+                            "id":  110,
+                            "layer_height":  0.20000000298023224,
+                            "name":  "optimized_3d_mbb_truss_print_smooth.stl"
+                        }
+                    ],
+    "sparse_layer_count":  193,
+    "sparse_segment_count":  49252,
+    "sparse_path_length_mm":  136453.2899644547,
+    "orientation_length_fraction":  {
+                                        "15":  0.29765125030036677,
+                                        "135":  0.2949104589963542,
+                                        "75":  0.29215581028329496,
+                                        "0":  0.02748285477741443,
+                                        "90":  0.011017359608105598,
+                                        "5":  0.0053314655452686,
+                                        "165":  0.0045360238053933554,
+                                        "175":  0.0036072361048900656,
+                                        "160":  0.0035134008278167933,
+                                        "65":  0.0033338074821374084,
+                                        "170":  0.003268260262768215,
+                                        "10":  0.0032480086990470903,
+                                        "105":  0.003227074127891174,
+                                        "25":  0.0030576296095219183,
+                                        "85":  0.003005795518997972,
+                                        "20":  0.00276435525489363,
+                                        "145":  0.002603448380405499,
+                                        "155":  0.002482853968357804,
+                                        "30":  0.0024775599350150054,
+                                        "95":  0.0023269090946919867,
+                                        "100":  0.002306643502603217,
+                                        "125":  0.0021054869373618936,
+                                        "110":  0.0020493165013418576,
+                                        "70":  0.0020405753179686017,
+                                        "45":  0.0020121116494643855,
+                                        "80":  0.0018622097344284363,
+                                        "55":  0.0018393719315892788,
+                                        "35":  0.0017871338888968797,
+                                        "50":  0.0017439873697769515,
+                                        "40":  0.0016441111324231592,
+                                        "140":  0.0015765639689269654,
+                                        "115":  0.001566644087480454,
+                                        "150":  0.0015592582781002585,
+                                        "60":  0.0013331050737950135,
+                                        "130":  0.0013313198873380443,
+                                        "120":  0.001240598155872097
+                                    },
+    "axial_fourth_orientation_moment":  0.3963483855067255,
+    "transverse_fourth_orientation_moment":  0.36523640029108895,
+    "axial_orientation_factor_vs_planar_isotropic":  1.0569290280179346,
+    "estimated_in_plane_line_pitch_mm":  2.5,
+    "median_spacing_candidate_mm":  2.7138758261939415,
+    "layer_dominant_orientations":  [
+                                        {
+                                            "z_mm":  0.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2197.614595145399
+                                        },
+                                        {
+                                            "z_mm":  1.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2206.7585503837868
+                                        },
+                                        {
+                                            "z_mm":  1.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2321.5722414426195
+                                        },
+                                        {
+                                            "z_mm":  1.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2331.7101977128405
+                                        },
+                                        {
+                                            "z_mm":  1.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2233.4021507186494
+                                        },
+                                        {
+                                            "z_mm":  1.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2338.315198573156
+                                        },
+                                        {
+                                            "z_mm":  2.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2325.7569499142155
+                                        },
+                                        {
+                                            "z_mm":  2.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2231.174840389246
+                                        },
+                                        {
+                                            "z_mm":  2.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2327.0302025041497
+                                        },
+                                        {
+                                            "z_mm":  2.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2320.0062480725815
+                                        },
+                                        {
+                                            "z_mm":  2.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2218.293838317056
+                                        },
+                                        {
+                                            "z_mm":  3.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2317.2875868666906
+                                        },
+                                        {
+                                            "z_mm":  3.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2298.9225231875944
+                                        },
+                                        {
+                                            "z_mm":  3.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2202.7862647505144
+                                        },
+                                        {
+                                            "z_mm":  3.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2300.1410358010407
+                                        },
+                                        {
+                                            "z_mm":  3.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2280.4444900848994
+                                        },
+                                        {
+                                            "z_mm":  4.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2192.5116084525994
+                                        },
+                                        {
+                                            "z_mm":  4.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2272.509006010988
+                                        },
+                                        {
+                                            "z_mm":  4.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  2260.932760228326
+                                        },
+                                        {
+                                            "z_mm":  4.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  2172.60307494951
+                                        },
+                                        {
+                                            "z_mm":  4.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  2201.8178586630847
+                                        },
+                                        {
+                                            "z_mm":  5.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1028.9998696252862
+                                        },
+                                        {
+                                            "z_mm":  5.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  720.5718432568309
+                                        },
+                                        {
+                                            "z_mm":  5.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  912.5037860177823
+                                        },
+                                        {
+                                            "z_mm":  5.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  536.9598187515063
+                                        },
+                                        {
+                                            "z_mm":  5.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  700.3196091376468
+                                        },
+                                        {
+                                            "z_mm":  6.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  728.0533679446645
+                                        },
+                                        {
+                                            "z_mm":  6.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  633.8517052382642
+                                        },
+                                        {
+                                            "z_mm":  6.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  556.9625044248367
+                                        },
+                                        {
+                                            "z_mm":  6.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  543.646790619242
+                                        },
+                                        {
+                                            "z_mm":  6.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  418.4835875180513
+                                        },
+                                        {
+                                            "z_mm":  7.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  429.11780460860376
+                                        },
+                                        {
+                                            "z_mm":  7.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  395.14741113048376
+                                        },
+                                        {
+                                            "z_mm":  7.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  358.88187223031656
+                                        },
+                                        {
+                                            "z_mm":  7.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  355.63459438571914
+                                        },
+                                        {
+                                            "z_mm":  7.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  328.08478852551747
+                                        },
+                                        {
+                                            "z_mm":  8.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  298.76160917035617
+                                        },
+                                        {
+                                            "z_mm":  8.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  295.2941720146406
+                                        },
+                                        {
+                                            "z_mm":  8.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  266.5557084347196
+                                        },
+                                        {
+                                            "z_mm":  8.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  256.465169888014
+                                        },
+                                        {
+                                            "z_mm":  8.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  268.54880058363216
+                                        },
+                                        {
+                                            "z_mm":  9.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  243.1704158262238
+                                        },
+                                        {
+                                            "z_mm":  9.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  237.7991195412197
+                                        },
+                                        {
+                                            "z_mm":  9.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  243.81765567675345
+                                        },
+                                        {
+                                            "z_mm":  9.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  225.89951999780473
+                                        },
+                                        {
+                                            "z_mm":  9.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  221.9686862998066
+                                        },
+                                        {
+                                            "z_mm":  10.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  227.99078970508853
+                                        },
+                                        {
+                                            "z_mm":  10.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  215.34646918299563
+                                        },
+                                        {
+                                            "z_mm":  10.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  206.04426037684982
+                                        },
+                                        {
+                                            "z_mm":  10.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  216.65762161290255
+                                        },
+                                        {
+                                            "z_mm":  10.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  201.84306564523726
+                                        },
+                                        {
+                                            "z_mm":  11.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  197.58432569907382
+                                        },
+                                        {
+                                            "z_mm":  11.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  214.43723119573758
+                                        },
+                                        {
+                                            "z_mm":  11.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  195.49027321079092
+                                        },
+                                        {
+                                            "z_mm":  11.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  204.4739087023668
+                                        },
+                                        {
+                                            "z_mm":  11.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  206.73233241365998
+                                        },
+                                        {
+                                            "z_mm":  12.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  198.13953372139352
+                                        },
+                                        {
+                                            "z_mm":  12.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  193.042024779315
+                                        },
+                                        {
+                                            "z_mm":  12.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  216.9262840446861
+                                        },
+                                        {
+                                            "z_mm":  12.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  209.31334201934175
+                                        },
+                                        {
+                                            "z_mm":  12.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  208.8920615974945
+                                        },
+                                        {
+                                            "z_mm":  13.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  206.61854429251196
+                                        },
+                                        {
+                                            "z_mm":  13.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  206.75548845806344
+                                        },
+                                        {
+                                            "z_mm":  13.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  218.89417679111247
+                                        },
+                                        {
+                                            "z_mm":  13.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  225.09628366416746
+                                        },
+                                        {
+                                            "z_mm":  13.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  209.94557154274457
+                                        },
+                                        {
+                                            "z_mm":  14.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  218.7371596995532
+                                        },
+                                        {
+                                            "z_mm":  14.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  235.88659557686847
+                                        },
+                                        {
+                                            "z_mm":  14.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  225.35799259685572
+                                        },
+                                        {
+                                            "z_mm":  14.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  223.68048168519107
+                                        },
+                                        {
+                                            "z_mm":  14.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  241.21149503931466
+                                        },
+                                        {
+                                            "z_mm":  15.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  248.62332532054947
+                                        },
+                                        {
+                                            "z_mm":  15.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  246.34172543394763
+                                        },
+                                        {
+                                            "z_mm":  15.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  246.99505665077868
+                                        },
+                                        {
+                                            "z_mm":  15.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  234.89099606440564
+                                        },
+                                        {
+                                            "z_mm":  15.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  229.71371568705032
+                                        },
+                                        {
+                                            "z_mm":  16.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  239.25219586567712
+                                        },
+                                        {
+                                            "z_mm":  16.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  241.84125201507064
+                                        },
+                                        {
+                                            "z_mm":  16.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  238.90987629948583
+                                        },
+                                        {
+                                            "z_mm":  16.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  266.1627408804679
+                                        },
+                                        {
+                                            "z_mm":  16.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  259.8927660000065
+                                        },
+                                        {
+                                            "z_mm":  17.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  242.82262087477613
+                                        },
+                                        {
+                                            "z_mm":  17.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  262.6473208323125
+                                        },
+                                        {
+                                            "z_mm":  17.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  264.4487738747109
+                                        },
+                                        {
+                                            "z_mm":  17.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  287.47345392872194
+                                        },
+                                        {
+                                            "z_mm":  17.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  285.1349685719549
+                                        },
+                                        {
+                                            "z_mm":  18.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  316.9698362813473
+                                        },
+                                        {
+                                            "z_mm":  18.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  311.00653698811806
+                                        },
+                                        {
+                                            "z_mm":  18.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  318.9508824871419
+                                        },
+                                        {
+                                            "z_mm":  18.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  333.74825707790967
+                                        },
+                                        {
+                                            "z_mm":  18.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  323.3175070145461
+                                        },
+                                        {
+                                            "z_mm":  19.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  323.2738882633107
+                                        },
+                                        {
+                                            "z_mm":  19.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  346.2791110639626
+                                        },
+                                        {
+                                            "z_mm":  19.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  359.49746364794674
+                                        },
+                                        {
+                                            "z_mm":  19.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  364.7798835194326
+                                        },
+                                        {
+                                            "z_mm":  19.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  376.0938360714275
+                                        },
+                                        {
+                                            "z_mm":  20.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  386.5911419944796
+                                        },
+                                        {
+                                            "z_mm":  20.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  404.9564266236487
+                                        },
+                                        {
+                                            "z_mm":  20.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  420.955309118917
+                                        },
+                                        {
+                                            "z_mm":  20.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  432.9324059866121
+                                        },
+                                        {
+                                            "z_mm":  20.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  441.8215483688143
+                                        },
+                                        {
+                                            "z_mm":  21.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  471.51674666774363
+                                        },
+                                        {
+                                            "z_mm":  21.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  445.9704042238511
+                                        },
+                                        {
+                                            "z_mm":  21.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  334.04298035842345
+                                        },
+                                        {
+                                            "z_mm":  21.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  447.3845899303997
+                                        },
+                                        {
+                                            "z_mm":  21.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  434.8306400988687
+                                        },
+                                        {
+                                            "z_mm":  22.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  443.9387249546491
+                                        },
+                                        {
+                                            "z_mm":  22.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  451.6597396011148
+                                        },
+                                        {
+                                            "z_mm":  22.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  443.3696452228752
+                                        },
+                                        {
+                                            "z_mm":  22.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  440.0159783222803
+                                        },
+                                        {
+                                            "z_mm":  22.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  451.8061628152007
+                                        },
+                                        {
+                                            "z_mm":  23.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  438.2534490741259
+                                        },
+                                        {
+                                            "z_mm":  23.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  433.17686331266117
+                                        },
+                                        {
+                                            "z_mm":  23.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  442.35487900221403
+                                        },
+                                        {
+                                            "z_mm":  23.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  443.9618112483135
+                                        },
+                                        {
+                                            "z_mm":  23.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  437.4631170415471
+                                        },
+                                        {
+                                            "z_mm":  24.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  456.0020001105546
+                                        },
+                                        {
+                                            "z_mm":  24.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  457.7950155952375
+                                        },
+                                        {
+                                            "z_mm":  24.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  442.54912644278886
+                                        },
+                                        {
+                                            "z_mm":  24.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  458.803327382213
+                                        },
+                                        {
+                                            "z_mm":  24.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  460.060729275958
+                                        },
+                                        {
+                                            "z_mm":  25.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  460.0395208228591
+                                        },
+                                        {
+                                            "z_mm":  25.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  463.48067189257483
+                                        },
+                                        {
+                                            "z_mm":  25.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  456.0010164182696
+                                        },
+                                        {
+                                            "z_mm":  25.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  456.12522798066766
+                                        },
+                                        {
+                                            "z_mm":  25.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  462.22945206226257
+                                        },
+                                        {
+                                            "z_mm":  26.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  450.2086710500875
+                                        },
+                                        {
+                                            "z_mm":  26.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  459.94037122797397
+                                        },
+                                        {
+                                            "z_mm":  26.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  458.74532444135673
+                                        },
+                                        {
+                                            "z_mm":  26.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  452.79528215935
+                                        },
+                                        {
+                                            "z_mm":  26.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  452.19931492356375
+                                        },
+                                        {
+                                            "z_mm":  27.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  470.65134206224315
+                                        },
+                                        {
+                                            "z_mm":  27.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  456.66546673841253
+                                        },
+                                        {
+                                            "z_mm":  27.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  459.4532960724912
+                                        },
+                                        {
+                                            "z_mm":  27.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  471.2516611315841
+                                        },
+                                        {
+                                            "z_mm":  27.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  448.0113400356462
+                                        },
+                                        {
+                                            "z_mm":  28.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  448.78406429320046
+                                        },
+                                        {
+                                            "z_mm":  28.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  466.046412113291
+                                        },
+                                        {
+                                            "z_mm":  28.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  443.4716846817092
+                                        },
+                                        {
+                                            "z_mm":  28.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  464.28688163739804
+                                        },
+                                        {
+                                            "z_mm":  28.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  457.2253074651673
+                                        },
+                                        {
+                                            "z_mm":  29.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  474.0576753748175
+                                        },
+                                        {
+                                            "z_mm":  29.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  511.41200594445814
+                                        },
+                                        {
+                                            "z_mm":  29.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  565.7961416828801
+                                        },
+                                        {
+                                            "z_mm":  29.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  593.2490801481997
+                                        },
+                                        {
+                                            "z_mm":  29.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  589.4129560378991
+                                        },
+                                        {
+                                            "z_mm":  30.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  617.7640672707973
+                                        },
+                                        {
+                                            "z_mm":  30.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  629.191921578341
+                                        },
+                                        {
+                                            "z_mm":  30.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  608.6020385524016
+                                        },
+                                        {
+                                            "z_mm":  30.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  617.9874270516455
+                                        },
+                                        {
+                                            "z_mm":  30.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  566.3551934998859
+                                        },
+                                        {
+                                            "z_mm":  31.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  586.5697327555885
+                                        },
+                                        {
+                                            "z_mm":  31.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  599.0107834062106
+                                        },
+                                        {
+                                            "z_mm":  31.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  605.1193533059621
+                                        },
+                                        {
+                                            "z_mm":  31.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  589.4626959105243
+                                        },
+                                        {
+                                            "z_mm":  31.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  601.225694916341
+                                        },
+                                        {
+                                            "z_mm":  32.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  600.7722406403873
+                                        },
+                                        {
+                                            "z_mm":  32.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  696.1145973826386
+                                        },
+                                        {
+                                            "z_mm":  32.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  776.19562286421
+                                        },
+                                        {
+                                            "z_mm":  32.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  809.8351750944915
+                                        },
+                                        {
+                                            "z_mm":  32.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  825.2831558378424
+                                        },
+                                        {
+                                            "z_mm":  33.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  871.2625073473832
+                                        },
+                                        {
+                                            "z_mm":  33.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  883.0965743156778
+                                        },
+                                        {
+                                            "z_mm":  33.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  865.1581393634224
+                                        },
+                                        {
+                                            "z_mm":  33.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  895.0166374993671
+                                        },
+                                        {
+                                            "z_mm":  33.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  862.4970580528691
+                                        },
+                                        {
+                                            "z_mm":  34.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  923.5698463734204
+                                        },
+                                        {
+                                            "z_mm":  34.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  955.8161026879895
+                                        },
+                                        {
+                                            "z_mm":  34.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  937.962301289541
+                                        },
+                                        {
+                                            "z_mm":  34.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  900.0492558013897
+                                        },
+                                        {
+                                            "z_mm":  34.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  964.627827496319
+                                        },
+                                        {
+                                            "z_mm":  35.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1144.6123170229837
+                                        },
+                                        {
+                                            "z_mm":  35.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  1140.0491568841242
+                                        },
+                                        {
+                                            "z_mm":  35.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  1246.9278042467959
+                                        },
+                                        {
+                                            "z_mm":  35.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1231.8739469498066
+                                        },
+                                        {
+                                            "z_mm":  35.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  1198.0952307972634
+                                        },
+                                        {
+                                            "z_mm":  36.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  1231.807791812873
+                                        },
+                                        {
+                                            "z_mm":  36.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1214.4116719932326
+                                        },
+                                        {
+                                            "z_mm":  36.4,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  1169.3675838396935
+                                        },
+                                        {
+                                            "z_mm":  36.6,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  1199.2674730292879
+                                        },
+                                        {
+                                            "z_mm":  36.8,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1183.834094161057
+                                        },
+                                        {
+                                            "z_mm":  37.0,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  1134.9975489365836
+                                        },
+                                        {
+                                            "z_mm":  37.2,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  1163.139541261599
+                                        },
+                                        {
+                                            "z_mm":  37.4,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1151.0825170140506
+                                        },
+                                        {
+                                            "z_mm":  37.6,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  1104.0892194195033
+                                        },
+                                        {
+                                            "z_mm":  37.8,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  1027.5780628692055
+                                        },
+                                        {
+                                            "z_mm":  38.0,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  1089.1050425184035
+                                        },
+                                        {
+                                            "z_mm":  38.2,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  942.5110980438208
+                                        },
+                                        {
+                                            "z_mm":  38.4,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  963.7847909862792
+                                        },
+                                        {
+                                            "z_mm":  38.6,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  892.6623899771928
+                                        },
+                                        {
+                                            "z_mm":  38.8,
+                                            "dominant_angle_deg":  75.0,
+                                            "sparse_path_length_mm":  786.8600762542951
+                                        },
+                                        {
+                                            "z_mm":  39.0,
+                                            "dominant_angle_deg":  15.0,
+                                            "sparse_path_length_mm":  750.3237407566704
+                                        },
+                                        {
+                                            "z_mm":  39.2,
+                                            "dominant_angle_deg":  135.0,
+                                            "sparse_path_length_mm":  633.353247232916
+                                        }
+                                    ]
+}

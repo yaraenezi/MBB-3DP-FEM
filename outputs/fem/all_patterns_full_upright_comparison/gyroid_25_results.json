@@ -1,0 +1,78 @@
+{
+  "case": "gyroid_25_full_upright",
+  "status": "homogenized_shell_core_screening_model",
+  "geometry_policy": "Full upright source STL used for every case. Half-beam archive geometry and orientation are excluded.",
+  "gcode_verified": {
+    "pattern": "gyroid",
+    "nominal_density": 0.25,
+    "measured_characteristic_spacing_mm": 2.507,
+    "axial_orientation_factor_vs_planar_isotropic": 1.14971,
+    "wall_loops": 2,
+    "outer_wall_line_width_mm": 0.42,
+    "inner_wall_line_width_mm": 0.45,
+    "normalized_full_upright_top_layers": 5,
+    "normalized_full_upright_bottom_layers": 3,
+    "layer_height_mm": 0.2
+  },
+  "model_assumptions": {
+    "dense_pla_isotropic": true,
+    "core_law": "E_core/E_PLA = infill_density ** core_exponent * G-code axial orientation factor",
+    "core_exponent": 2.0,
+    "wall_thickness_mm": 0.87,
+    "requires_rve_or_coupon_calibration": true
+  },
+  "dolfinx_version": "0.11.0.post0",
+  "load_n": 100.0,
+  "mesh_size_mm": 2.4,
+  "mesh": {
+    "tetrahedra": 134566,
+    "minimum_tetra_volume_m3": 1.5951609019616425e-11,
+    "maximum_tetra_volume_m3": 4.592357807958129e-09,
+    "degenerate_tetrahedra": 0
+  },
+  "gmsh": {
+    "reused_mesh": true,
+    "source_mesh": "outputs/fem/20260723_112313_mbb_cubic_15_full_upright/full_upright_tetrahedra.msh"
+  },
+  "geometry": {
+    "span_m": 0.21026555670744967,
+    "depth_m": 0.024149483831762603,
+    "height_m": 0.04021825834169651,
+    "support_width_m": 0.007359294484760739,
+    "support_height_m": 0.005630556167837512,
+    "load_half_width_m": 0.007359294484760739,
+    "load_half_depth_m": 0.004829896766352521,
+    "load_height_band_m": 0.003217460667335721
+  },
+  "shell_core": {
+    "surface_area_m2": 0.028564071850414412,
+    "total_volume_m3": 7.924826126179369e-05,
+    "target_shell_volume_m3": 2.485074250986054e-05,
+    "represented_shell_volume_m3": 2.485074250986054e-05,
+    "target_shell_volume_fraction": 0.31358091791777026,
+    "shell_cell_layers": 3,
+    "fractional_outermost_shell_layer": 1.0,
+    "fractional_innermost_shell_layer": 0.0003705266397823647,
+    "core_relative_stiffness": 0.071856875,
+    "density_only_core_relative_stiffness": 0.0625,
+    "axial_orientation_factor": 1.14971,
+    "estimated_total_material_fraction": 0.4851856884383277
+  },
+  "estimated_material_volume_m3": 3.845012219784383e-05,
+  "estimated_mass_kg": 0.04767815152532635,
+  "solver": {
+    "converged_reason": 3,
+    "iterations": 154
+  },
+  "mean_load_displacement_m": -0.0003175368022000161,
+  "maximum_displacement_m": 0.00032789986602365355,
+  "compliance_j": 0.031753680220001614,
+  "strain_energy_j": 0.01587684010988589,
+  "energy_identity_relative_error": 7.238121099298865e-12,
+  "reaction_left_z_n": 50.34771489097559,
+  "reaction_right_z_n": 49.65228402869217,
+  "reaction_total_z_n": 99.99999891966776,
+  "equilibrium_relative_error": 1.080332239666859e-08,
+  "maximum_homogenized_von_mises_pa": 6231209.12220021,
+  "plot_deformation_scale": 15.0
+}

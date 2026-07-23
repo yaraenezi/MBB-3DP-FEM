@@ -63,6 +63,36 @@ The compiled technical report is available in:
 - [`outputs/reports/full_upright_cubic_fem_report.pdf`](outputs/reports/full_upright_cubic_fem_report.pdf)
 - [`outputs/reports/full_upright_cubic_fem_report.docx`](outputs/reports/full_upright_cubic_fem_report.docx)
 
+### Six sparse-infill cases
+
+`src/fem/mbb_3d_pattern_shell_core.py` extends the same full-upright model to:
+
+- cubic at 15% and 25%;
+- gyroid at 15% and 25%;
+- honeycomb at 15% and 25%.
+
+The pattern correction is calculated from the archived G-code axial
+fourth-orientation moment and normalized to cubic at each density. This keeps
+the accepted cubic baseline unchanged while providing a traceable
+pattern-specific screening comparison.
+
+![All pattern comparison](outputs/fem/all_patterns_full_upright_comparison/all_patterns_full_upright_comparison.png)
+
+See
+[`outputs/fem/all_patterns_full_upright_comparison/validation.md`](outputs/fem/all_patterns_full_upright_comparison/validation.md)
+for the complete assumptions, numerical checks, and validation boundary.
+
+Compiled report:
+
+- [`outputs/reports/full_upright_all_infill_fem_report.pdf`](outputs/reports/full_upright_all_infill_fem_report.pdf)
+- [`outputs/reports/full_upright_all_infill_fem_report.docx`](outputs/reports/full_upright_all_infill_fem_report.docx)
+
+Appendix A of the report includes the inspected `.3mf` sparse-infill layer
+figures for every pattern and density. Appendix B pairs the true 3D
+tetrahedral mesh and deformed FE displacement plot for all six sparse cases
+and the dense 100% baseline. The main results section includes a seven-case
+engineering comparison matrix with stiffness, mass, efficiency, and ranking.
+
 ## Validated Results
 
 Material assumptions:
